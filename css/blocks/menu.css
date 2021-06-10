@@ -1,0 +1,14 @@
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+
+.menu__link  {
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #FF3D00;
+}

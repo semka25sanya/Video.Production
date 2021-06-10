@@ -1,0 +1,22 @@
+.button {
+  color: #FF3D00;
+  border: 2px solid #FF3D00;
+  font-weight: bold;
+  border-radius: 35px;
+  padding: 18px 54px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button--offer {
+  margin-top: auto;
+}
+
+.button--primary {
+  color: #fff;
+  background: #FF3D00;
+}
+
+.button:hover {
+  color: #fff;
+  background: #FF3D00
+}

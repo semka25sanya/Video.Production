@@ -1,0 +1,43 @@
+.offers_services {
+  background-color: #fff;
+  color: #303030;
+  padding:90px;
+}
+.service {
+  display: flex;
+ 
+}
+.offers_services__list {
+  margin-bottom: 70px;
+}
+ .offers_services__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #303030;;
+  margin-bottom: 50px; 
+}
+.service__img {
+  width: 40%;                          
+  margin-right: 7%;
+}
+.service__content {
+  flex: 1;
+}
+.title__services {
+  color: #000;
+  margin-bottom: 26px;
+  font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+}
+.service__text{
+  font-size: 16px;
+  line-height: 27px;
+  align-items: center;
+  margin-bottom: 52px;
+  }
+
+  .header_services__link:hover{
+    color: #FF3D00;
+  }

@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  line-height: 1.42;
+  font-size: 14px;
+  background: #17191C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osk-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-weight: normal;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 1142px;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url(/img/hero.jpg) center top no-repeat, url(/img/bottom-pic.png) right bottom 306px no-repeat;
+}
+.wrapper--services {
+  background: none;
+}
+
+
+
+

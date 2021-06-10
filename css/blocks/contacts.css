@@ -1,0 +1,48 @@
+.contacts {
+  
+  font-style: normal;
+  text-align:right; 
+}
+.contacts__text {
+  font-size: 11px;
+  color: #9A9A9A;
+}
+
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 7px;
+
+}
+
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FF3D00 ;
+  display: block;
+}
+
+.contacts__workhours-tooltip {
+  position: relative;
+  font-size: 13px;
+  padding: 15px 19px;
+  width: 160px;
+  height: 80px;
+  background: #CDD1D2;
+  text-align: center;
+  color: #000;
+  opacity: 0.8;
+  border-radius: 3%;
+  visibility: hidden;
+border-top: 10px solid #000;  
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left:-10px;
+}
+
+.contacts__workhours:hover ~ .contacts__workhours-tooltip{
+  content: '';
+  visibility:visible;
+}
