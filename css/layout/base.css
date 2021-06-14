@@ -50,11 +50,12 @@ img {
 }
 
 .wrapper {
-  overflow: hidden;
+  /* overflow: hidden;
   min-width: 1200px;
-  min-height: 100%;
+  min-height: 100%; */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background: url(/img/hero.jpg) center top no-repeat, url(/img/bottom-pic.png) right bottom 306px no-repeat;
 }
 .wrapper--services {
