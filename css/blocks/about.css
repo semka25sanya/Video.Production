@@ -9,8 +9,11 @@
 height:505px;
 background: url(/img/cameraman.jpg) center center / cover no-repeat;
 }
+
 .about {
   color: #000;
+
+
 }
 .about__content {
   background-color: #fff;
