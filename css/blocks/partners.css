@@ -2,7 +2,6 @@
   background:#F4F5F5; 
   color: #1A1B1E;
   padding-bottom: 121px;
-  margin-bottom: 44px;
   padding: 88px 0;
 }
 .title--partners {
@@ -37,40 +36,4 @@ margin-left: 0;
   filter: grayscale(0);
 }
   
-  /* background: center center no-repeat;  */ 
-
- /* .partners-list__item--icon--di .partners-list__link{
-  
-  background-image: url(/img/img.services/divico.png);
-}
-
-.partners-list__item--icon--di .partners-list__link:hover{
-  
-  background-image: url(/img/img.services/divico.png);
-}
-
-.partners-list__item--icon--ds .partners-list__link{
-  background-image: url(/img/img.services/ds.png);
-}
-
-.partners-list__item--icon--pa .partners-list__link{
-  background-image: url(/img/img.services/park.png);
-}
-
-.partners-list__item--icon--zv .partners-list__link{
-  background-image: url(/img/img.services/zvibes.png);
-}
-
-.partners-list__item--icon--rv .partners-list__link{
-  background-image: url(/img/img.services/rosvideo.png);
-}
-
-.partners-list__item--icon--zav .partners-list__link{
-  background-image: url(/img/img.services/zavod.png);
-}
-.partners-list__item--icon--pp .partners-list__link{
-  background-image: url();
-}
-.partners-list__item--icon--ex .partners-list__link{
-  background-image: url(/img/img.services/expotv.png);
-} */
+ 

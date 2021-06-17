@@ -1,29 +1,31 @@
 .footer {
-  margin-top: auto;
+  
   width: 100%;
   height: 146px;
 }
-.footer:before {
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 40px;
+}
+.footer__content--index:before {
   content: "";
-  
+  width: 100%;
+  display: block;
   border-top: 1px solid #fff;
   opacity: 0.1;
+  position: absolute;
+  top:0;
+  left: 0;
 }
 
 .footer--services{
  
 height: 132px;
 }
-.footer__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-/* .footer__content--line {
-  border-top: 1px solid #fff;
-  opacity: 0.1;
-  margin-bottom: 40px;
-} */
+
 
 

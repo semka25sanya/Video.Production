@@ -1,0 +1,27 @@
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  /* column-count: 2;
+  column-gap: 30px; */
+  background-color: #fff;
+  color:  #818181 ;
+  
+}
+.reviews__list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 75px;
+  margin-top: 94px;
+}
+.paginator--reviews{
+  color: #000;
+  margin-bottom: 93px;
+  }
+   .reviews__tags {
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+

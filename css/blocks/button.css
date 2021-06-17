@@ -13,6 +13,10 @@
 
 .button--primary {
   color: #fff;
+  background: #FF5500;
+}
+.button--primary:hover {
+  color: #fff;
   background: #FF3D00;
 }
 
