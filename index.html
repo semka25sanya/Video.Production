@@ -15,7 +15,7 @@
 
 <body>
   <div class="wrapper">
-    <div class="wrapper__content">
+  <div class="wrapper__content"> 
       <div class="container ">
         <header class="header">
           <div class="container">
@@ -38,12 +38,15 @@
               </nav>
               <address class="contacts">
                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                <a href="#" class="contacts__workhours"> График работы</a>
+                <div class="contacts__workhours">
+                <a href="#" class="contacts__link"> График работы</a>
                 <div class="contacts__workhours-tooltip">
-                  <p> <b>пн-вс: 09:00 - 20:00 </b></p>
-                  <p>Обед: 14:00-14:30</p>
+                  <ul class="contacts__list">
+                  <li class="contacts__item"> <b>пн-вс: 09:00 - 20:00 </b></li>
+                  <li class="contacts__item">Обед: 14:00-14:30</li>
+                </ul>
                 </div>
-
+              </div>
               </address>
             </div>
           </div>
@@ -185,13 +188,12 @@
             </div>
         </section>
       </main>
-    </div>
+    </div> 
 
 
-    <footer class="footer">
+    <footer class="footer ">
       <div class="container">
-        <!-- <div class="footer__content--line"></div> -->
-        <div class="footer__content">
+        <div class="footer__content footer__content--index">
           <a href="#" class="logo">
             <img src="img/logo.png" alt="VideoProduction" class="logo__img">
           </a>
@@ -231,7 +233,7 @@
         </div>
       </div>
   </div>
-  </footer>
+    </footer>
 
 
 

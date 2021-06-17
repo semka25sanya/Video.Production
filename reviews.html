@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Reviews</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="reviws.css">
+    <link rel="stylesheet" href="form.css">
+    
   
   </head>
 <body>
-   <div class="wrapper--services">
+   <div class="wrapper wrapper--services ">
      <div class="wrapper__content">
       <div class="header-services__wrapper">
         <div class="container">
@@ -37,15 +38,19 @@
             </nav>
             <address class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <a href="#" class="contacts__workhours"> График работы</a>
+              <div class="contacts__workhours">
+              <a href="#" class="contacts__link"> График работы</a>
               <div class="contacts__workhours-tooltip">
-                <p> <b>пн-вс: 09:00 - 20:00 </b></p>
-                <p>Обед: 14:00-14:30</p>
+                <ul class="contacts__list">
+                <li class="contacts__item"> <b>пн-вс: 09:00 - 20:00 </b></li>
+                <li class="contacts__item">Обед: 14:00-14:30</li>
+              </ul>
               </div>
-
+            </div>
             </address>
           </div>
         </header>
+
         <section class="header_services">
           <div class="container">
             <div class="header_services__content">
@@ -62,7 +67,6 @@
               </nav>
             </div>
           </div>
-        </div>
         </section>
       </div>
      </div>
@@ -71,62 +75,109 @@
   <ul class="reviews__list" >
 <li class="reviews__item review">
   <div class="review__header">
-    <img src="/img/reviews/ivan.jpg" alt="" class="review__img">
+    <div class="review__img">
+    <img src="/img/reviews/ivan.jpg" alt="" class="review__pic">
+  </div>
+  <div class="review__header-right">
+    
     <a href="" class="review__name">Иван Петрович</a>
-    <a href="" class="review__button">Съемки клипа</a>
+  
+  <div class="reviews__tags">
+    <p class="review__tag tag tag--bg--red">Съемки клипа</p>
+  </div>
+</div>
   </div>
   <div class="review__content">
 <h3 class="review__title">Съемка клипа.</h3>
+<div>
 <p class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+</div>
+<div>
 <p class="review__data">Ноябрь 2019</p>  
+</div>
 </div>
 </li>
 <li class="reviews__item review">
   <div class="review__header">
-    <img src="/img/reviews/ekaterina.jpg" alt="" class="review__img">
+    <div class="review__img">
+    <img src="/img/reviews/ekaterina.jpg" alt="" class="review__pic">
+  </div>
+  <div class="review__header-right">
     <a href="" class="review__name">Екатерина Жмых</a>
-    <a href="" class="review__button">Студийная сьемка</a>
+  
+  <div class="reviews__tags">
+    <p class="review__tag tag tag--bg--red">Студийная сьемка</p>
+  </div>
+</div>
   </div>
   <div class="review__content">
-<h3 class="review__title">Очень понравилась работа
-  в студии.</h3>
+<h3 class="review__title">Очень понравилась работа в студии.</h3>
+<div>
 <p class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия. </p>
+</div>
+<div>
 <p class="review__data">Ноябрь 2019</p>  
 </div>
+</div>
 </li>
+
 <li class="reviews__item review">
   <div class="review__header">
-    <img src="/img/reviews/liza.jpg" alt="" class="review__img">
-    <a href="" class="review__name">Лиза Сидорова</a>
-    <a href="" class="review__button">Съемка свадьбы</a>
+    <div class="review__img">
+    <img src="/img/reviews/liza.jpg" alt="" class="review__pic">
   </div>
+  <div class="review__header-right">
+    <a href="" class="review__name">Лиза Сидорова</a>
+  
+
+  <div class="reviews__tags">
+    <p class="review__tag tag tag--bg--red">Съемка свадьбы</p>
+  </div>
+</div>
+</div>
   <div class="review__content">
 <h3 class="review__title">Свадебная съемка.</h3>
+<div>
 <p class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+</div>
+<div>
 <p class="review__data">Ноябрь 2019</p>  
 </div>
+</div>
+
 </li>
 <li class="reviews__item review">
   <div class="review__header">
-    <img src="/img/reviews/anton.jpg" alt="" class="review__img">
+    <div class="review__img">
+    <img src="/img/reviews/anton.jpg" alt="" class="review__pic">
+  </div>
+  <div class="review__header-right">
     <a href="" class="review__name">Антон Игоревич</a>
-    <a href="" class="review__button">Реклама</a>
+ 
+  <div class="reviews__tags">
+    <p class="review__tag tag tag--bg--red">Реклама</p>
+  </div>
+</div>
   </div>
   <div class="review__content">
-<h3 class="review__title">Заказывал съемку рекламы.
-  И не пожалел!</h3>
+<h3 class="review__title">Заказывал съемку рекламы. И не пожалел!</h3>
+<div>
 <p class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+</div>
+<div>
 <p class="review__data">Ноябрь 2019</p>  
+</div>
 </div>
 </li>
   </ul>
-  <div class="paginator paginator--services">
+  <div class="paginator paginator--reviews">
     <div class="paginator__display">Страница 1 из 7</div>
     <ul class="paginator__list">
       <li class="paginator__item paginator__item--active"> <a href="#"
           class="paginator__link paginator__link--services">1</a></li>
       <li class="paginator__item"> <a href="#" class="paginator__link">2</a></li>
-      <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+      <li class="paginator__item"
+      ><a href="#" class="paginator__link">3</a></li>
       <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
       <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
       <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
@@ -136,21 +187,94 @@
   </div>
 </div>
      </main>
-    <div class="sale__wrapper">
+    
      <section class="sale">
-       <div class="container">
+      <div class="container">
+      <div class="sale__wrapper">
+       
       
-         <h2 class="sale__offer">Скидка 20% на съемку мероприятий</h2>
+         <h2 class="sale__offer">Скидка <span style="color: #FF3D00;">20%</span> на съемку мероприятий</h2>
        </div>
       </div>
      </section>
-     <section class="form">
+
+     <section class="forms">
        <div class="container">
-       <h3 class="form__title">Оставьте отзыв</h3>
-      </div>
+       <h3 class="forms__title">Оставьте отзыв</h3>
+      
+<div class="form">
+  <div class="form__row">
+   <input type="text" placeholder="Ваше имя" class="form__input">
+  <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
+</div>
+<div class="form__row">
+<textarea class="form__input form__input--textaerea"  placeholder="Напишите свой честный отзыв ;)"></textarea>
+</div>
+<div class="form__controls">
+  <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
+  <ul class="controls">
+    <li class="controls__item">
+      <label class="controls__elem">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Съемки клипа</div>
+      </label>
+    </li>
+    <li class="controls__item">
+      <label class="controls__elem">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Съемки рекламы</div>
+      </label>
+    </li>
+    <li class="controls__item">
+      <label class="controls__elem ">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Съемка свадьбы</div>
+      </label>
+    </li>
+    <li class="controls__item">
+      <label class="controls__elem">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Студийная съемка</div>
+      </label>
+    </li>
+    <li class="controls__item">
+      <label class="controls__elem">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Никакими</div>
+      </label>
+    </li>
+    <li class="controls__item">
+      <label class="controls__elem">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Видео клип</div>
+      </label>
+    </li>
+    <li class="controls__item">
+      <label class="controls__elem">
+        <input type="checkbox" class="controls__checkbox">
+        <div class="tag controls__tag">Другое</div>
+      </label>
+    </li>
+  </ul>
+
+</div>
+</div>
+<div class="form__buttons">
+  <button type="reset" class="button form__button button--color--grey">Очистить</button>
+  <button type="submit"class="button form__button button--color--red">Отправить</button>
+</div>
+
+
+
+
+
+</div>
      </section>
+    </div>
      <footer class="footer">
       <div class="container">
+
+
   
         <div class="footer__content ">
   
@@ -193,6 +317,7 @@
         </div>
       </div>
     </footer>
-   </div>
+   
+  </div>
 </body>
 </html>
