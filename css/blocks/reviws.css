@@ -1,6 +1,7 @@
 .reviews {
   display: flex;
   justify-content: space-around;
+  /* flex-flow: column wrap; */
   /* column-count: 2;
   column-gap: 30px; */
   background-color: #fff;
@@ -9,7 +10,10 @@
 }
 .reviews__list{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  column-count: 2;
+  column-gap: 30px;
+  max-height: 542px;
   justify-content: space-between;
   margin-bottom: 75px;
   margin-top: 94px;
