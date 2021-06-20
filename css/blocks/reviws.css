@@ -10,13 +10,14 @@
 }
 .reviews__list{
   display: flex;
-  flex-flow: column wrap;
   column-count: 2;
   column-gap: 30px;
-  max-height: 542px;
-  justify-content: space-between;
-  margin-bottom: 75px;
+  margin-bottom: 45px;
   margin-top: 94px;
+  max-height: 1378px;
+  justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .paginator--reviews{
   color: #000;

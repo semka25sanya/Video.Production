@@ -34,7 +34,7 @@ color: #666;
 }
 .form__controls {
   display: flex;
-  padding-bottom: 33px;
+  padding-bottom: 12px;
 }
 
 .form__controls-title {

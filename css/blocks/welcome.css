@@ -42,7 +42,11 @@ to {
 }
 
 .welcome__record {
-  background: url(/img/welcome/rec.png) center center/cover no-repeat;
-  max-width: 1128px;
-  max-height: 396px;
+  background: url(/img/welcome/rec.png) ;
+  width: 1128px;
+  height: 643px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,17 +1,17 @@
 .hello {
   
   text-align: center;
-  margin-bottom: 233px;
+  margin-bottom: 243px;
 }
 .hello__title {
  font-size: 72px;
  font-weight: bold;
- line-height: 1.1;
+ line-height: 98px;
  margin-bottom: 17px;
  text-transform: uppercase;
 }
 
 .hello__text {
   font-size: 18px;
-  margin-bottom: 43px;
+  margin-bottom: 60px;
 }

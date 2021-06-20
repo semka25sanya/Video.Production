@@ -10,7 +10,7 @@ font-size: 36px;
 line-height: 49px;
 text-transform: uppercase;
 margin-bottom: 56px;
-padding-top: 70px; ;
+padding-top: 80px;
 }
 .form__controls-title {
 font-size: 18px;
@@ -33,6 +33,9 @@ font-size: 18px;
 .button--color--red {
   background: #FF5500;
   color: #fff;
+}
+.button--form {
+  padding: 18px 44px;
 }
 
 .form__button {

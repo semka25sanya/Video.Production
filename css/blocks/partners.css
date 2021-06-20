@@ -2,14 +2,14 @@
   background:#F4F5F5; 
   color: #1A1B1E;
   padding-bottom: 121px;
-  padding: 88px 0;
+  padding: 75px 0;
 }
 .title--partners {
   
   font-size: 48px;
   line-height: 65px;
   font-weight: bold;
-  margin-bottom: 82px;
+  margin-bottom: 68px;
 }
 .partners-list {
 display: flex;
@@ -18,10 +18,11 @@ flex-wrap: wrap;
     
 .partners-list__item {
   margin-bottom: 30px;
+  margin-left: 15px;
 
 }
 .partners-list__item:nth-child(4n+1) {
-margin-left: 0;
+margin-left: 0px;
 }
 .partners-list__link {
   filter: grayscale(100%);
@@ -31,7 +32,9 @@ margin-left: 0;
   height: 100px;
  align-items: center;
   justify-content: center; 
+
 }
+
 .partners-list__link:hover{
   filter: grayscale(0);
 }
