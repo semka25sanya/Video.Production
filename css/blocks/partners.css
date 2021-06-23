@@ -32,17 +32,17 @@ flex-wrap: wrap;
   justify-content: center; 
 
 }
-.partners-list__link:nth-child(1) {
+.partners-list__item:nth-child(1) .partners-list__link {
   justify-content: flex-start;
 }
-.partners-list__link:nth-child(5) {
+.partners-list__item:nth-child(5) .partners-list__link {
   justify-content: flex-start;
 }
-.partners-list__link:nth-child(4) {
+.partners-list__item:nth-child(4) .partners-list__link {
 
   justify-content: flex-end;
 }
-.partners-list__link:nth-child(8) {
+.partners-list__item:nth-child(8) .partners-list__link {
 
   justify-content: flex-end;
 }
