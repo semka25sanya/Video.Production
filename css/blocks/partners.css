@@ -21,9 +21,7 @@ flex-wrap: wrap;
   margin-left: 15px;
 
 }
-.partners-list__item:nth-child(4n+1) {
-margin-left: 0px;
-}
+
 .partners-list__link {
   filter: grayscale(100%);
  display: flex;
@@ -33,6 +31,20 @@ margin-left: 0px;
  align-items: center;
   justify-content: center; 
 
+}
+.partners-list__link:nth-child(1) {
+  justify-content: flex-start;
+}
+.partners-list__link:nth-child(5) {
+  justify-content: flex-start;
+}
+.partners-list__link:nth-child(4) {
+
+  justify-content: flex-end;
+}
+.partners-list__link:nth-child(8) {
+
+  justify-content: flex-end;
 }
 
 .partners-list__link:hover{
