@@ -25,17 +25,19 @@
 
 }
 .contacts__workhours{
-  position: relative;
+  position:relative;
+  
   
 }
 .contacts__workhours:hover .contacts__workhours-tooltip{
   display: block;
-  left: 0;
+  right: 0;
   opacity: 1;
 
 }
 .contacts__workhours-tooltip {
   position: absolute;
+  
   font-size: 13px;
   max-width: 160px;
   max-height: 80px;
@@ -46,10 +48,11 @@
   border-radius: 3%;
   top: 100%;
   display: none;
-  left: -9999px;
+  right: -9999px;
   opacity: 0;
   transition: opacity .4s;
   text-align: start;
+  
 }
 
 .contacts__workhours-tooltip:before {
