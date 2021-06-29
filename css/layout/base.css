@@ -57,9 +57,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(../../../img/hero.jpg) center top no-repeat, url(/img/bottom-pic.png) right bottom 306px no-repeat;
-  
-}
+  background: url(../../img/hero.jpg) center top no-repeat, url(../../img/bottom-pic.png) right bottom 306px no-repeat;
+ }
 .wrapper--services {
   background: none;
 }
