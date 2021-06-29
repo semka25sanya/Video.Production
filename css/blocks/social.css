@@ -22,35 +22,35 @@
   }
   
   .social-list__item--icon--telegram .social-list__link {
-    background-image: url(/img/telegram.png);
+    background-image: url(img/telegram.png);
   }
   
   .social-list__item--icon--telegram .social-list__link:hover {
-    background-image: url(/img/telegram2\ .png);
+    background-image: url(img/telegram2\ .png);
   }
   
   
   .social-list__item--icon--vk .social-list__link {
-    background-image: url(/img/vk.png);
+    background-image: url(img/vk.png);
   }
   
   .social-list__item--icon--vk .social-list__link:hover {
-    background-image: url(/img/vk2.png);
+    background-image: url(img/vk2.png);
   }
   
   
   
   .social-list__item--icon--fb .social-list__link {
-    background-image: url(/img/f.png);
+    background-image: url(img/f.png);
   }
   
   .social-list__item--icon--fb .social-list__link:hover {
-    background-image: url(/img/f2.png);
+    background-image: url(img/f2.png);
   }
   .social-list__item--icon--insta .social-list__link {
-    background-image: url(/img/in.png);
+    background-image: url(img/in.png);
   }
   
   .social-list__item--icon--insta .social-list__link:hover{
-    background-image: url(/img/in2.png);
+    background-image: url(img/in2.png);
   }
