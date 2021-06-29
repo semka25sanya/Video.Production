@@ -22,7 +22,7 @@
   }
   
   .social-list__item--icon--telegram .social-list__link {
-    background-image: url(img/telegram.png);
+    background-image: url(../img/telegram.png);
   }
   
   .social-list__item--icon--telegram .social-list__link:hover {
